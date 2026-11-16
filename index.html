@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- ¡Quién pasa a la silla! — Tú respondes, yo pregunto
+     Este archivo solo arma la página: carga el estilo y los scripts en orden.
+     No necesitas modificarlo. Lee GUIA.md para saber qué archivo editar. -->
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>¡Quién pasa a la silla! — Tú respondes, yo pregunto</title>
+<!-- Aspecto visual -->
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<!-- Aquí se dibuja todo el juego -->
+<div id="app"></div>
+<!-- Lógica del juego. EL ORDEN IMPORTA: el último (10-inicio.js) arranca todo -->
+<script src="js/01-datos.js"></script>
+<script src="js/02-preguntas.js"></script>
+<script src="js/03-utiles.js"></script>
+<script src="js/04-audio.js"></script>
+<script src="js/05-avatares.js"></script>
+<script src="js/06-temas-efectos.js"></script>
+<script src="js/07-pantallas.js"></script>
+<script src="js/08-juego.js"></script>
+<script src="js/09-final.js"></script>
+<script src="js/10-inicio.js"></script>
+</body>
+</html>

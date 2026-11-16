@@ -1,0 +1,16 @@
+CARPETA DE MÚSICA
+=================
+1) Copia aquí tus archivos de audio (por ejemplo: suspenso.mp3).
+2) Anótalos en musica.json con este formato (no olvides las comas):
+
+{
+  "canciones": [
+    { "titulo": "Suspenso suave", "archivo": "suspenso.mp3", "autor": "Nombre del autor", "licencia": "CC0 / CC-BY / propia" }
+  ]
+}
+
+3) Vuelve a publicar la carpeta. En Configuración > Música verás tus canciones.
+
+IMPORTANTE: usa solo música que tengas derecho a reproducir en público
+(libre de derechos, con licencia que lo permita o autorizada por su titular).
+Si la licencia exige citar al autor, escríbelo en "autor" y menciónalo en tu evento.
